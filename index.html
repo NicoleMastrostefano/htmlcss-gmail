@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gmail</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+    <body>
+      <!-- intestazione/logo  -->
+      <header>
+        <img class="logo" src="img/logo.png" alt="imgmail">
+        <h1 class="logo-text">Gmail</h1>
+        <hr>
+      </header>
+      <!-- /intestazione/logo  -->
+      <!-- ricerca -->
+      <nav>
+        <input type="text" placeholder="search">
+        <button type="button"> VAI
+        </button>
+        <h2> You have <span id = "unreadmail">30</span> unread
+        </h2>
+        <hr>
+      </nav>
+      <!-- /ricerca -->
+      <!-- PARTE PRINCIPALE -->
+      <main>
+        <div id="r1" class="row read">
+        <div class="row-left">
+          <input type="checkbox" >
+          <span>&#9733;</span>
+          <span class="subject"><strong>Oggetto della mail</strong>
+          </span>
+        </div>
+        <div class="row-right">
+          <span class="body">-testo della mail.. </span>
+        </div>
+        </div>
+
+        <div class="row unread ">
+        <div class="row-left">
+          <input type="checkbox" >
+          <span>&#9733;</span>
+          <span class="subject"><strong>Oggetto della mail</strong>
+          </span>
+        </div>
+        <div class="row-right">
+          <span class="body">-testo della mail..</span>
+        </div>
+        </div>
+
+        <div class="row read">
+        <div class="row-left">
+          <input type="checkbox" >
+          <span>&#9733;</span>
+          <span class="subject"><strong>Oggetto della mail</strong>
+          </span>
+        </div>
+        <div class="row-right">
+          <span class="body">-testo della mail..</span>
+        </div>
+        </div>
+
+        <div class="row unread ">
+        <div class="row-left">
+          <input type="checkbox" >
+          <span>&#9733;</span>
+          <span class="subject"><strong>Oggetto della mail</strong>
+          </span>
+        </div>
+        <div class="row-right">
+          <span class="body">-testo della mail.. </span>
+        </div>
+        </div>
+        <hr>
+      </main>
+      <!-- /PARTE PRINCIPALE -->
+      <!-- chiusura -->
+      <footer>
+        <span id="name-footer"> <strong>GMail</strong>
+        </span> powered by Nicole
+      </footer>
+      <!-- /chiusura -->
+    </body>
+</html>
