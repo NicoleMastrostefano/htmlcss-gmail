@@ -15,11 +15,10 @@ header {
   width: 60px
 }
 
-.logo-text{
+.logo-text {
   font-size: 20px;
   display: inline-block;
   vertical-align: top;
-
 }
 
 .body {
@@ -37,7 +36,6 @@ h2 {
   color: WHITE;
   font-size: 21px;
   font-weight: normal;
-
 }
 
 #unreadmail {
@@ -46,16 +44,18 @@ h2 {
   padding: 10px;
 }
 
-.row-left
-{display: inline-block;
+.row-left {
+  display: inline-block;
 }
 
 .row-right {
   /* width: 70%; */
   display: inline-block;
-  }
+}
 
-#r1 {border: 1px solid black;}
+#r1 {
+  border: 1px solid black;
+}
 
 .row {
   height: 20px;
@@ -66,16 +66,20 @@ h2 {
 }
 
 .read {
-    background-color: white;}
+  background-color: white;
+}
 
 .unread {
-  background-color: lightgrey	;}
+  background-color: lightgrey	;
+}
 
-footer{
+footer {
   color: white;
   text-align: center;
-  font-style: italic;}
+  font-style: italic;
+}
 
 #name-footer {
   font-size: 23px;
-  font-style: normal;}
+  font-style: normal;
+}
