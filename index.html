@@ -13,65 +13,52 @@
         <hr>
       </header>
       <!-- /intestazione/logo  -->
-      <!-- ricerca -->
-      <nav>
-        <input type="text" placeholder="search">
-        <button type="button"> VAI
-        </button>
-        <h2> You have <span id = "unreadmail">30</span> unread
-        </h2>
-        <hr>
-      </nav>
-      <!-- /ricerca -->
       <!-- PARTE PRINCIPALE -->
       <main>
-        <div id="r1" class="row read">
-        <div class="row-left">
-          <input type="checkbox" >
-          <span>&#9733;</span>
-          <span class="subject"><strong>Oggetto della mail</strong>
-          </span>
-        </div>
-        <div class="row-right">
-          <span class="body">-testo della mail.. </span>
-        </div>
-        </div>
-        
-        <div class="row unread ">
-        <div class="row-left">
-          <input type="checkbox" >
-          <span>&#9733;</span>
-          <span class="subject"><strong>Oggetto della mail</strong>
-          </span>
-        </div>
-        <div class="row-right">
-          <span class="body">-testo della mail..</span>
-        </div>
-        </div>
+        <!-- sezione ricerca -->
+        <section>
+          <input type="text" placeholder="search">
+          <button type="button"> VAI
+          </button>
+          <h2> You have <span id = "unreadmail">30</span> unread
+          </h2>
+          <hr>
+        </section>
+        <!-- /sezione ricerca -->
 
-        <div class="row read">
-        <div class="row-left">
-          <input type="checkbox" >
-          <span>&#9733;</span>
-          <span class="subject"><strong>Oggetto della mail</strong>
-          </span>
-        </div>
-        <div class="row-right">
-          <span class="body">-testo della mail..</span>
-        </div>
-        </div>
+        <!-- PARTE EMAIL -->
+        <section>
+          <div id="r1" class="row unread">
+            <div class="row">
+              <input type="checkbox" >
+              <span>&#9733;</span>
+              <span class="subject"><strong>Oggetto della mail</strong>  <span class="body">-testo della mail.. </span>
+            </div>
+          </div>
 
-        <div class="row unread ">
-        <div class="row-left">
-          <input type="checkbox" >
-          <span>&#9733;</span>
-          <span class="subject"><strong>Oggetto della mail</strong>
-          </span>
-        </div>
-        <div class="row-right">
-          <span class="body">-testo della mail.. </span>
-        </div>
-        </div>
+          <div id="r1" class="row read">
+            <div class="row">
+              <input type="checkbox" >
+              <span>&#9733;</span>
+              <span class="subject"><strong>Oggetto della mail</strong>  <span class="body">-testo della mail.. </span>
+            </div>
+          </div>
+
+          <div id="r1" class="row unread">
+            <div class="row">
+              <input type="checkbox" >
+              <span>&#9733;</span>
+              <span class="subject"><strong>Oggetto della mail</strong>  <span class="body">-testo della mail.. </span>
+            </div>
+          </div>
+          <div id="r1" class="row read">
+            <div class="row">
+              <input type="checkbox" >
+              <span>&#9733;</span>
+              <span class="subject"><strong>Oggetto della mail</strong>  <span class="body">-testo della mail.. </span>
+            </div>
+          </div>
+        </section>
         <hr>
       </main>
       <!-- /PARTE PRINCIPALE -->
